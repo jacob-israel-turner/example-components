@@ -7,5 +7,8 @@ module.exports = {
     loaders: [
       {test: /\.js$/, loader: 'jsx-loader'}
     ]
+  },
+  resolve: {
+    modulesDirectories: ['node_modules', 'app']
   }
 };
